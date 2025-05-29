@@ -22,6 +22,16 @@ body {
 	-ms-animation:peach_alive linear 8s infinite;
 	animation:peach_alive linear 8s infinite;
 }
+.frame {
+    border: 5px solid #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: transform 0.4s ease;
+}
+.frame:hover {
+    transform: scale(1.05);
+}
 
 @-webkit-keyframes peach_alive {
 	0%{
