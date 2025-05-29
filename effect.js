@@ -138,7 +138,12 @@ $('document').ready(function(){
 		});
 	});
 
-		
+	$('#bannar_coming').click(function(){
+		$('.bannar').addClass('bannar-come');
+		$('.photo-frames').fadeIn(2000); // <-- Add this line
+	});
+
+	
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
 
