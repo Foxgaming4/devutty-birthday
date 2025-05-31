@@ -32,6 +32,16 @@ body {
 .frame:hover {
     transform: scale(1.05);
 }
+.photo-frames {
+    clear: both;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+.cake-cover {
+    margin-bottom: 60px;
+}
+
 
 @-webkit-keyframes peach_alive {
 	0%{
